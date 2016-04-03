@@ -1,0 +1,138 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+  width:100%;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #A0A0A0;
+  border-radius: 0;
+  border: 0;
+}
+
+h2{
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Helvetica', sans-serif;
+}
+
+h3{
+  color: black;
+  font-size: 1.25em;
+  padding-top:10px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+#menu-subheader{
+  font-size: 1.25em;
+  margin-top: 5px;
+  margin-bottom:10px;
+}
+
+p{
+  color: black;
+  margin-left: 10px;
+  margin-right:auto;
+  margin-bottom:10px;
+
+  padding: 3px;
+  font-size: 85%;
+}
+
+div.menu-class {
+  border: 1px solid #fff;
+  background-color: gray;
+  margin-right: 15px;
+  margin-left:auto;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#beef-id, #chicken-id, #sushi-id {
+  height: 600px;
+ 
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+   background-color: #A0A0A0
+}
+
+#back-to-top{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+/********** large/medium devices only **********/
+@media (min-width: 768px) {
+#menu-header{
+    margin-top:95px;
+    margin-bottom:25px;
+  }
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #menu-header{
+    margin-top:115px;
+    margin-bottom:75px;
+  }
+}
+
+
+
+/* END HEADER */
